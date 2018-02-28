@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Pozdravljeni v kalkulatorju!</h1>
+    <h2>Prosimo, vpisite zeljeni stevili ter racunsko opracijo:</h2>
+
+    <form method="post" action="/izracun">
+        <input type="text" id="input_stevila1" name="stevilo1" required>
+        <input type="text" id="operacija" name="operacija" required>
+        <input type="text" id="input_stevila2" name="stevilo2" required>
+        =
+        <button type="submit">Izracunaj</button>
+    </form>
+</body>
+</html>
